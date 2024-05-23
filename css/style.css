@@ -4,3 +4,10 @@
     background-color: dodgerblue;
     color: white;
 }
+
+[class*="col-nest"] {
+    min-height: 25px;
+    border: white 1px solid;
+    background-color: greenyellow;
+    color: white;
+}

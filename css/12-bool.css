@@ -5,6 +5,7 @@ body {
 .container {
     width: 1170px;
     margin: 0 auto;
+    margin-top: 2vh;
 }
 
 .row {
@@ -28,9 +29,73 @@ body {
     justify-content: center;
 }
 
+.col-3 {
+    flex-basis: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .col-5 {
     flex-basis: calc((100% / 12) * 5);
     max-width: calc((100% / 12) * 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-6 {
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-7 {
+    flex-basis: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-9 {
+    flex-basis: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-10 {
+    flex-basis: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-11 {
+    flex-basis: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,3 +108,28 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.col-nest-2 {
+    flex-basis: calc((100% / 12) * 2 - 5px);
+    max-width: calc((100% / 12) * 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-nest-8 {
+    flex-basis: calc((100% / 12) * 8 - 5px);
+    max-width: calc((100% / 12) * 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-nest-6 {
+    flex-basis: calc((100% / 12) * 6 - 5px);
+    max-width: calc((100% / 12) * 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
